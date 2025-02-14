@@ -16,8 +16,6 @@ python:
 - 3.10.* *_cpython
 python_impl:
 - cpython
-s2geography:
-- 0.1.2
 s2geometry:
 - 0.11.1
 target_platform:
@@ -26,4 +24,3 @@ zip_keys:
 - - python
   - numpy
   - python_impl
-  - channel_sources
