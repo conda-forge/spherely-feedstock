@@ -10,7 +10,7 @@ source:
   sha256: 40d2450881b0953048d9b214db647c3cc48af60c2a645ec49969e7687e9c5d88
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<310 or python_impl == 'pypy']
   script: python -m pip install . -vv
 
@@ -29,6 +29,7 @@ requirements:
     - pip
     - scikit-build-core
     - pybind11 >=2.10.0
+    - libabseil
     - s2geometry
     - s2geography >=0.2.0,<0.3
     - numpy
