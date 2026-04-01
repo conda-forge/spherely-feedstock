@@ -1,5 +1,5 @@
 {% set name = "spherely" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/benbovy/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 40d2450881b0953048d9b214db647c3cc48af60c2a645ec49969e7687e9c5d88
+  sha256: 30cc40d58f6d2447ed4f970ab5c04b23f958e35211fffd467b124228bb80ee09
 
 build:
-  number: 3
+  number: 0
   skip: true  # [py<310 or python_impl == 'pypy']
   script: python -m pip install . -vv
 
