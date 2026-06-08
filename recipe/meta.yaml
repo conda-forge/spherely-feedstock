@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/benbovy/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 30cc40d58f6d2447ed4f970ab5c04b23f958e35211fffd467b124228bb80ee09
+  sha256: 2fa8d60e4df39c234e93353875621dea53160f5da411cd346cbea6c205a699c3
 
 build:
   number: 1
