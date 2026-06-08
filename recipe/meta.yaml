@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/benbovy/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 30cc40d58f6d2447ed4f970ab5c04b23f958e35211fffd467b124228bb80ee09
+  url: https://pypi.org/packages/source/s/spherely/spherely-{{ version }}.tar.gz
+  sha256: db1719fd5f2b51ca79f74109fde09be1fe021576d4e0169062d2fb7e7309d7df
 
 build:
-  number: 0
+  number: 1
   skip: true  # [py<310 or python_impl == 'pypy']
   script: python -m pip install . -vv
 
