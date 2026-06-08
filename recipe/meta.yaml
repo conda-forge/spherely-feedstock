@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/benbovy/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 2fa8d60e4df39c234e93353875621dea53160f5da411cd346cbea6c205a699c3
+  url: https://pypi.org/packages/source/s/spherely/spherely-{{ version }}.tar.gz
+  sha256: db1719fd5f2b51ca79f74109fde09be1fe021576d4e0169062d2fb7e7309d7df
 
 build:
   number: 1
